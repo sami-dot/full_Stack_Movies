@@ -9,7 +9,8 @@
       "MoviesAPI/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.11"
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
+          "MinimalApis.Extensions": "0.11.0"
         },
         "runtime": {
           "MoviesAPI.dll": {}
@@ -602,6 +603,14 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.OpenApi/1.4.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.4.3.0",
+            "fileVersion": "1.4.3.0"
+          }
+        }
+      },
       "Microsoft.SqlServer.Server/1.0.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
@@ -623,6 +632,26 @@
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "MinimalApis.Extensions/0.11.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.4.3",
+          "MiniValidation": "0.8.0"
+        },
+        "runtime": {
+          "lib/net7.0/MinimalApis.Extensions.dll": {
+            "assemblyVersion": "0.11.0.0",
+            "fileVersion": "0.11.0.0"
+          }
+        }
+      },
+      "MiniValidation/0.8.0": {
+        "runtime": {
+          "lib/net6.0/MiniValidation.dll": {
+            "assemblyVersion": "0.8.0.0",
+            "fileVersion": "0.8.0.0"
           }
         }
       },
@@ -1178,6 +1207,13 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+    "Microsoft.OpenApi/1.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
+      "path": "microsoft.openapi/1.4.3",
+      "hashPath": "microsoft.openapi.1.4.3.nupkg.sha512"
+    },
     "Microsoft.SqlServer.Server/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1191,6 +1227,20 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "MinimalApis.Extensions/0.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H+T96ZIoK9nUwQvycG4py39jvp+4LjUV9YiFVdKOnrUdEwktWkKDpF6ccHIn1o9tXeCH+vmZYnlobZ/X8eG6ug==",
+      "path": "minimalapis.extensions/0.11.0",
+      "hashPath": "minimalapis.extensions.0.11.0.nupkg.sha512"
+    },
+    "MiniValidation/0.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OcYFgtI6yDoVaEtVAQQHvGHbI4TBJ9dRrPJEqtcHtJjoGtpS0pM0uTuNLJaO3txvq6TcYqus4LFMQv5/LZegtg==",
+      "path": "minivalidation/0.8.0",
+      "hashPath": "minivalidation.0.8.0.nupkg.sha512"
     },
     "Mono.TextTemplating/2.2.1": {
       "type": "package",

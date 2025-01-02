@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y9kpnsZjfq/O+6gPazFp1FzxPTeA+MzQ61toAHn+vmGhEBkc57ygDK9wdQNK3wscrKHFLLRCYIYQSlF78/t6EQ==",
+  "dgSpecHash": "Ru+Ei7tMfJafB+qD5N8iHC6UzGq1vQLMi2a2MuHW6of6iWjz2It5KE1m4cKYWnwAtETyMkUnZY3oTwRXZmySQQ==",
   "success": true,
   "projectFilePath": "/home/sami/Desktop/FullStackMovies/MoviesAPI/MoviesAPI.csproj",
   "expectedPackageFiles": [
@@ -43,8 +43,11 @@
     "/home/sami/.nuget/packages/microsoft.identitymodel.tokens/6.35.0/microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/home/sami/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/home/sami/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/home/sami/.nuget/packages/minimalapis.extensions/0.11.0/minimalapis.extensions.0.11.0.nupkg.sha512",
+    "/home/sami/.nuget/packages/minivalidation/0.8.0/minivalidation.0.8.0.nupkg.sha512",
     "/home/sami/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/home/sami/.nuget/packages/system.clientmodel/1.0.0/system.clientmodel.1.0.0.nupkg.sha512",
     "/home/sami/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",

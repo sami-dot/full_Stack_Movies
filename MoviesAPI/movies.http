@@ -1,0 +1,30 @@
+GET http://localhost:5120/movies
+
+###
+GET http://localhost:5120/movies/10
+
+###
+POST http://localhost:5120/movies
+Content-Type: application/json
+
+{
+    "Name" : "pulp fiction",
+    "Price" : 37.99,
+    "ReleaseDate" : "1994-03-17",
+    "GenreId" : 2
+
+}
+
+###
+PUT http://localhost:5120/movies/7
+Content-Type:application/json
+
+{
+    "Name" : "Nosferatu",
+    "Price" : 23.99,
+    "ReleaseDate" : "2024-11-07",
+    "GenreId" : 3
+}
+
+###
+DELETE http://localhost:5120/movies/8

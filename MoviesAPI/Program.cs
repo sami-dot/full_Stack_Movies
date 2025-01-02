@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MoviesAPI.Data;
+using MoviesAPI.EndPoints;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,6 @@ using(var scope = app.Services.CreateScope()){
     }
 }
 
-app.MapGet("/", () => "Hello World!");
+app.MapMoviesEndpoints();
 
 app.Run();
